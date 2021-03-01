@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Virtual Advisor</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/scrolling-nav.css" rel="stylesheet">
+    </head>
+
+    <body id="page-top">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="index.html#page-top"><img src="images/1200px-University_of_Pittsburgh_seal.svg.png" width="8%" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="bg-primary text-white">
+            <div class="container text-center">
+                <h1>Recommended Courses</h1>
+            </div>
+        </header>
+
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 mx-auto">
+						<h2>Trying to decide what courses to take?</h2>
+						<p class="lead">Use the interactive drop downs to let the virtual advisor know what kind of class you're looking for.</p>
+						<p class="lead">What requirement do you need to fill?</p>
+					
+						<!-- Button trigger modal -->
+<!-- CHANGE #1: Change "Req. Section1" to the requirement section name (ex. "prerequisite")-->							
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#prereq">Req. Section1</button>
+						<!-- Modal -->
+						<div class="modal fade" id="prereq" tabindex="-1" role="dialog" aria-labelledby="prereqTitle" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										
+<!-- CHANGE #2: Change "Req. Section1" to the requirement section name (ex. "prerequisite")-->										
+			<h5 class="modal-title" id="prereqTitle">Req. Section1</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										
+<!-- CHANGE #3: Type in respective fields (ex. (ENGCMP) (0600) (Introduction to Technical Writing) ) and remove parentheses -->
+<!-- These changes will be for the "Prequisite" button on the page -->	
+										
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p> 
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p> 
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p> 
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p> 
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p> 
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<!-- copy and paste (or delete) another line if needed -->							
+										
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Button trigger modal -->
+<!-- CHANGE #4: Change "Req. Section2" to the requirement section name (ex. "prerequisite")-->							
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#core">Req. Section 2</button>
+									<!-- Modal -->
+									<div class="modal fade" id="core" tabindex="-1" role="dialog" aria-labelledby="coreTitle" aria-hidden="true">
+									  <div class="modal-dialog" role="document">
+										<div class="modal-content">
+										  <div class="modal-header">
+<!-- CHANGE #5: Change "Req. Section2" to the requirement section name (ex. "prerequisite")-->												  
+			<h5 class="modal-title" id="coreTitle">Req. Section 2</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											  <span aria-hidden="true">&times;</span>
+											</button>
+										  </div>
+										  <div class="modal-body">
+											  
+<!-- CHANGE #6: Type in respective fields (ex. (ENGCMP) (0600) (Introduction to Technical Writing) ) and remove parentheses -->
+<!-- These changes will be for the "Core Courses" button on the page -->
+											  
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<!-- copy and paste (or delete) another line if needed -->								  
+											  
+										  </div>
+										  <div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										  </div>
+										</div>
+									  </div>
+									</div>     
+
+									<!-- Button trigger modal -->
+<!-- CHANGE #7: Change "Req. Section3" to the requirement section name (ex. "prerequisite")-->	
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#thousandlevel">Req. Section 3</button>
+									<!-- Modal -->
+									<div class="modal fade" id="thousandlevel" tabindex="-1" role="dialog" aria-labelledby="thousandlevelTitle" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+											  <div class="modal-header">
+<!-- CHANGE #8: Change "Req. Section3" to the requirement section name (ex. "prerequisite")-->													  
+			<h5 class="modal-title" id="thousandlevelTitle">Req. Section 3</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												  <span aria-hidden="true">&times;</span>
+												</button>
+											  </div>
+											  <div class="modal-body">
+<!-- CHANGE #9: Type in respective fields (ex. (ENGCMP) (0600) (Introduction to Technical Writing) ) and remove parentheses -->
+<!-- These changes will be for the "1000 Level Courses" button on the page -->
+												  
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<!-- copy and paste (or delete) another line if needed -->									  
+			
+											  </div>
+											  <div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+											  </div>
+											</div>
+										</div>
+									</div>  
+
+									<!-- Button trigger modal -->
+<!-- CHANGE #10: Change "Req. Section4" to the requirement section name (ex. "prerequisite")-->							
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#elective">Req. Section 4</button>
+									<!-- Modal -->
+									<div class="modal fade" id="elective" tabindex="-1" role="dialog" aria-labelledby="electiveTitle" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+											  <div class="modal-header">
+<!-- CHANGE #11: Change "Req. Section4" to the requirement section name (ex. "prerequisite")-->													  
+			<h5 class="modal-title" id="electiveTitle">Req. Section 4</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												  <span aria-hidden="true">&times;</span>
+												</button>
+											  </div>
+											  <div class="modal-body">
+<!-- CHANGE #12: Type in respective fields (ex. (ENGCMP) (0600) (Introduction to Technical Writing) ) and remove parentheses -->
+<!-- These changes will be for the "Electives" button on the page -->
+												  
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+			<!-- copy and paste (or delete) another line if needed -->									  
+			
+
+															  </div>
+															  <div class="modal-footer">
+																<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+															  </div>
+															</div>
+														</div>
+													</div>  
+												</div>
+											</div>
+										</div>
+									</section>
+	    
+	    
+	    <!-- TEMPLATE: If you need to add another requirements section, copy and paste in the text below this line. Make sure you also change the id and data target
+	    
+									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#thousandlevel">1000 Level Courses</button>
+									
+									<div class="modal fade" id="thousandlevel" tabindex="-1" role="dialog" aria-labelledby="thousandlevelTitle" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+											  <div class="modal-header">
+												<h5 class="modal-title" id="thousandlevelTitle">1000 Level Course</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												  <span aria-hidden="true">&times;</span>
+												</button>
+											  </div>
+											  <div class="modal-body">
+
+												  
+												<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+												<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+												<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+												<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+												<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+												<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+												<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+												<p>(SUBJECT) (CLASS NUMBER) (Class Title)</p>
+											  
+			
+											  </div>
+											  <div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+											  </div>
+											</div>
+										</div>
+									</div>  
+	    (ABOVE THIS LINE) -->
+
+									<section id="services" class="bg-light">
+										<div class="container">
+											<div class="row">
+												<div class="col-lg-8 mx-auto">
+													
+<!-- CHANGE #13: Replace (MAJOR) with your respective major (ex. English and Composition) ) and remove parentheses! -->													
+		<h2>Want to browse through courses in (MAJOR)?</h2>
+									<p class="lead">If you would just like to browse, below is a comprehensive list of courses that includes:</p>
+																	<ul>
+																		<li>Course title</li>
+																		<li>Professor</li>
+																		<li>Description</li>
+																		<li>Reviews</li>
+																	</ul>
+									<p>Each of the following buttons will direct you towards the respective course:</p>
+
+<!-- CHANGE #14: Type in respective fields (ex. (ENGCMP) (0600) ) and remove parentheses -->
+<!-- These changes will be for the buttons under "Want to Browse through Courses (MAJOR)" on the page -->
+													
+						<a href="#Class1" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						<a href="#Class2" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						<a href="#Class3" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						
+						<p> </p>
+						<a href="#Class4" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						<a href="#Class5" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						<a href="#Class6" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>							
+						
+						<p> </p>
+						<a href="#Class7" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						<a href="#Class8" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						<a href="#Class9" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						
+						<p> </p>							
+						<a href="#Class10" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						<a href="#Class11" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						<a href="#Class12" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>	
+													
+						<p> </p>
+						<a href="#Class13" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						<a href="#Class14" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						<a href="#Class15" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+													
+						<p> </p>							
+						<a href="#Class16" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						<a href="#Class17" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>
+						<a href="#Class18" class="btn btn-primary" role="button">(SUBJECT) (CLASS NUMBER)</a>	
+						<!-- Add (or delete) more classes as necessary -->							
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="List">
+			<div class="container">
+
+				<div class="row justify-content-center">
+					<h2>All Courses</h2>
+				</div>
+				
+<!-- CHANGE #15: Type in respective fields (ex. (ENGCMP) (0600) (Introduction to Technical Writing) ) and remove parentheses -->
+<!-- To change course information simply delete "Insert course information here" and type your course information, make sure the text is enclosed by <p class="lead"> and </p> on both sides -->
+<!-- If you add more classes, make sure you update the "Class1" section with the new classs # -->
+				
+												<div id="Class1" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class2" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class3" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class4" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class5" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class6" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class7" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class8" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class9" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class10" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class11" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class12" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class13" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class14" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class15" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class16" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>
+												<div id="Class17" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+													</div>
+												<div id="Class18" class="link">
+			<h4>(SUBJECT) (CLASS NUMBER) (CLASS TITLE)</h4>
+			<p class="lead"> &nbsp &nbsp Insert course information here </p>
+												</div>	
+										
+				</div>
+			</div>
+	    </div>
+	<br>
+	<br>
+	<br>
+
+
+        <!-- Footer -->
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">Copyright &copy; University of Pittsburgh 2019</p>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom JavaScript for this theme -->
+        <script src="js/scrolling-nav.js"></script>
+
+    </body>
+
+</html>
